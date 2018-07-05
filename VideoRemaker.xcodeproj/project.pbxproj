@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FE8135B891F7E5B1D1F287 /* libPods-VideoRemaker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 261BE83EA853FF493A988C4D /* libPods-VideoRemaker.a */; };
+		FCE5877A20EDBA16001EAC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5877920EDBA16001EAC1A /* AppDelegate.m */; };
+		FCE5877D20EDBA16001EAC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5877C20EDBA16001EAC1A /* ViewController.m */; };
+		FCE5878020EDBA16001EAC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE5877E20EDBA16001EAC1A /* Main.storyboard */; };
+		FCE5878320EDBA16001EAC1A /* VideoRemaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCE5878120EDBA16001EAC1A /* VideoRemaker.xcdatamodeld */; };
+		FCE5878520EDBA17001EAC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE5878420EDBA17001EAC1A /* Assets.xcassets */; };
+		FCE5878820EDBA17001EAC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE5878620EDBA17001EAC1A /* LaunchScreen.storyboard */; };
+		FCE5878B20EDBA17001EAC1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5878A20EDBA17001EAC1A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		261BE83EA853FF493A988C4D /* libPods-VideoRemaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoRemaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96409C59B0130B9F78FCEEC1 /* Pods-VideoRemaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRemaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRemaker/Pods-VideoRemaker.debug.xcconfig"; sourceTree = "<group>"; };
+		F7AFDCAF7646A7311FAC0818 /* Pods-VideoRemaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRemaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRemaker/Pods-VideoRemaker.release.xcconfig"; sourceTree = "<group>"; };
+		FCE5877520EDBA15001EAC1A /* VideoRemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE5877820EDBA16001EAC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCE5877920EDBA16001EAC1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCE5877B20EDBA16001EAC1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCE5877C20EDBA16001EAC1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCE5877F20EDBA16001EAC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE5878220EDBA16001EAC1A /* VideoRemaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoRemaker.xcdatamodel; sourceTree = "<group>"; };
+		FCE5878420EDBA17001EAC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE5878720EDBA17001EAC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE5878920EDBA17001EAC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE5878A20EDBA17001EAC1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCE587AF20EDC0C1001EAC1A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCE587B020EDC6F0001EAC1A /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE5877220EDBA15001EAC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE8135B891F7E5B1D1F287 /* libPods-VideoRemaker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60F0BF34BDEDFB61B0A19BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261BE83EA853FF493A988C4D /* libPods-VideoRemaker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68A1FF8521DFDE27BACF6A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96409C59B0130B9F78FCEEC1 /* Pods-VideoRemaker.debug.xcconfig */,
+				F7AFDCAF7646A7311FAC0818 /* Pods-VideoRemaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCE5876C20EDBA15001EAC1A = {
+			isa = PBXGroup;
+			children = (
+				FCE5877720EDBA15001EAC1A /* VideoRemaker */,
+				FCE5877620EDBA15001EAC1A /* Products */,
+				68A1FF8521DFDE27BACF6A28 /* Pods */,
+				60F0BF34BDEDFB61B0A19BB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE5877620EDBA15001EAC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5877520EDBA15001EAC1A /* VideoRemaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE5877720EDBA15001EAC1A /* VideoRemaker */ = {
+			isa = PBXGroup;
+			children = (
+				FCE587AE20EDBF97001EAC1A /* AppDelegate */,
+				FCE5877B20EDBA16001EAC1A /* ViewController.h */,
+				FCE5877C20EDBA16001EAC1A /* ViewController.m */,
+				FCE587AD20EDBF84001EAC1A /* VideoDel */,
+				FCE5878420EDBA17001EAC1A /* Assets.xcassets */,
+				FCE5878120EDBA16001EAC1A /* VideoRemaker.xcdatamodeld */,
+			);
+			path = VideoRemaker;
+			sourceTree = "<group>";
+		};
+		FCE587AD20EDBF84001EAC1A /* VideoDel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoDel;
+			sourceTree = "<group>";
+		};
+		FCE587AE20EDBF97001EAC1A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5877E20EDBA16001EAC1A /* Main.storyboard */,
+				FCE5878620EDBA17001EAC1A /* LaunchScreen.storyboard */,
+				FCE5878920EDBA17001EAC1A /* Info.plist */,
+				FCE5878A20EDBA17001EAC1A /* main.m */,
+				FCE5877820EDBA16001EAC1A /* AppDelegate.h */,
+				FCE5877920EDBA16001EAC1A /* AppDelegate.m */,
+				FCE587AF20EDC0C1001EAC1A /* PrefixHeader.pch */,
+				FCE587B020EDC6F0001EAC1A /* Common.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE5877420EDBA15001EAC1A /* VideoRemaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE587A420EDBA17001EAC1A /* Build configuration list for PBXNativeTarget "VideoRemaker" */;
+			buildPhases = (
+				CA72D6AA516736A1B3882B15 /* [CP] Check Pods Manifest.lock */,
+				FCE5877120EDBA15001EAC1A /* Sources */,
+				FCE5877220EDBA15001EAC1A /* Frameworks */,
+				FCE5877320EDBA15001EAC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoRemaker;
+			productName = VideoRemaker;
+			productReference = FCE5877520EDBA15001EAC1A /* VideoRemaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE5876D20EDBA15001EAC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dylan Chen";
+				TargetAttributes = {
+					FCE5877420EDBA15001EAC1A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FCE5877020EDBA15001EAC1A /* Build configuration list for PBXProject "VideoRemaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE5876C20EDBA15001EAC1A;
+			productRefGroup = FCE5877620EDBA15001EAC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE5877420EDBA15001EAC1A /* VideoRemaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE5877320EDBA15001EAC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE5878820EDBA17001EAC1A /* LaunchScreen.storyboard in Resources */,
+				FCE5878520EDBA17001EAC1A /* Assets.xcassets in Resources */,
+				FCE5878020EDBA16001EAC1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA72D6AA516736A1B3882B15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoRemaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE5877120EDBA15001EAC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE5877D20EDBA16001EAC1A /* ViewController.m in Sources */,
+				FCE5877A20EDBA16001EAC1A /* AppDelegate.m in Sources */,
+				FCE5878B20EDBA17001EAC1A /* main.m in Sources */,
+				FCE5878320EDBA16001EAC1A /* VideoRemaker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCE5877E20EDBA16001EAC1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE5877F20EDBA16001EAC1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE5878620EDBA17001EAC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE5878720EDBA17001EAC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE587A220EDBA17001EAC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoRemaker/AppDelegate/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCE587A320EDBA17001EAC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoRemaker/AppDelegate/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE587A520EDBA17001EAC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96409C59B0130B9F78FCEEC1 /* Pods-VideoRemaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26J52EZXXR;
+				INFOPLIST_FILE = VideoRemaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TS.VideoRemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE587A620EDBA17001EAC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AFDCAF7646A7311FAC0818 /* Pods-VideoRemaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26J52EZXXR;
+				INFOPLIST_FILE = VideoRemaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TS.VideoRemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE5877020EDBA15001EAC1A /* Build configuration list for PBXProject "VideoRemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE587A220EDBA17001EAC1A /* Debug */,
+				FCE587A320EDBA17001EAC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE587A420EDBA17001EAC1A /* Build configuration list for PBXNativeTarget "VideoRemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE587A520EDBA17001EAC1A /* Debug */,
+				FCE587A620EDBA17001EAC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCE5878120EDBA16001EAC1A /* VideoRemaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCE5878220EDBA16001EAC1A /* VideoRemaker.xcdatamodel */,
+			);
+			currentVersion = FCE5878220EDBA16001EAC1A /* VideoRemaker.xcdatamodel */;
+			path = VideoRemaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCE5876D20EDBA15001EAC1A /* Project object */;
+}
