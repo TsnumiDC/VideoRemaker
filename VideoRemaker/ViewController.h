@@ -13,3 +13,10 @@
 
 @end
 
+
+
+@interface TSListCell : UITableViewCell
+
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+
+@end

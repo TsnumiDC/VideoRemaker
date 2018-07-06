@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>集合特卖需要您的同意,才能添加图片</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>我们需要访问相册来读取视频和图片信息</string>
 	<key>CFBundleDevelopmentRegion</key>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29FE8135B891F7E5B1D1F287 /* libPods-VideoRemaker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 261BE83EA853FF493A988C4D /* libPods-VideoRemaker.a */; };
+		FCCF016E20EE13A800BD5E3F /* DelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCF016D20EE13A800BD5E3F /* DelController.m */; };
 		FCE5877A20EDBA16001EAC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5877920EDBA16001EAC1A /* AppDelegate.m */; };
 		FCE5877D20EDBA16001EAC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5877C20EDBA16001EAC1A /* ViewController.m */; };
 		FCE5878020EDBA16001EAC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE5877E20EDBA16001EAC1A /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		261BE83EA853FF493A988C4D /* libPods-VideoRemaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoRemaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96409C59B0130B9F78FCEEC1 /* Pods-VideoRemaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRemaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRemaker/Pods-VideoRemaker.debug.xcconfig"; sourceTree = "<group>"; };
 		F7AFDCAF7646A7311FAC0818 /* Pods-VideoRemaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRemaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRemaker/Pods-VideoRemaker.release.xcconfig"; sourceTree = "<group>"; };
+		FCCF016C20EE13A800BD5E3F /* DelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelController.h; sourceTree = "<group>"; };
+		FCCF016D20EE13A800BD5E3F /* DelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelController.m; sourceTree = "<group>"; };
 		FCE5877520EDBA15001EAC1A /* VideoRemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRemaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE5877820EDBA16001EAC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCE5877920EDBA16001EAC1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 		FCE5877720EDBA15001EAC1A /* VideoRemaker */ = {
 			isa = PBXGroup;
 			children = (
+				FCE5878920EDBA17001EAC1A /* Info.plist */,
 				FCE587AE20EDBF97001EAC1A /* AppDelegate */,
 				FCE5877B20EDBA16001EAC1A /* ViewController.h */,
 				FCE5877C20EDBA16001EAC1A /* ViewController.m */,
@@ -99,6 +103,8 @@
 		FCE587AD20EDBF84001EAC1A /* VideoDel */ = {
 			isa = PBXGroup;
 			children = (
+				FCCF016C20EE13A800BD5E3F /* DelController.h */,
+				FCCF016D20EE13A800BD5E3F /* DelController.m */,
 			);
 			path = VideoDel;
 			sourceTree = "<group>";
@@ -108,7 +114,6 @@
 			children = (
 				FCE5877E20EDBA16001EAC1A /* Main.storyboard */,
 				FCE5878620EDBA17001EAC1A /* LaunchScreen.storyboard */,
-				FCE5878920EDBA17001EAC1A /* Info.plist */,
 				FCE5878A20EDBA17001EAC1A /* main.m */,
 				FCE5877820EDBA16001EAC1A /* AppDelegate.h */,
 				FCE5877920EDBA16001EAC1A /* AppDelegate.m */,
@@ -212,6 +217,7 @@
 			files = (
 				FCE5877D20EDBA16001EAC1A /* ViewController.m in Sources */,
 				FCE5877A20EDBA16001EAC1A /* AppDelegate.m in Sources */,
+				FCCF016E20EE13A800BD5E3F /* DelController.m in Sources */,
 				FCE5878B20EDBA17001EAC1A /* main.m in Sources */,
 				FCE5878320EDBA16001EAC1A /* VideoRemaker.xcdatamodeld in Sources */,
 			);
